@@ -32,7 +32,7 @@
     </header>
 
     <main id="site_main">
-        <div id="jumbotron">
+        <section id="jumbotron">
             <div id="jumbo_text">
                 <p id="your_place">
                     Il tuo posto per parlare
@@ -50,10 +50,10 @@
                         Apri Discord nel tuo browser
                 </button>
             </div>
-        </div>
+        </section>
 
         <!-- group preview -->
-        <div class="container">
+        <section class="container check">
             <div class="image_box">
                 <img src="./assets/img/item1.svg" alt="">
             </div>
@@ -65,13 +65,13 @@
                     I server Discord sono organizzati in canali tematici in cuoi puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.
                 </p>
             </div>
-        </div>
+        </section>
 
         <div id="separator">
         </div>
 
         <!-- voice channel preview -->
-        <div class="container alternating_color">
+        <section class="container alternating_color">
             <div id="text_box">
                 <p id="upper_text">
                     Dove trovarsi è facile
@@ -83,13 +83,13 @@
             <div class="image_box">
                 <img src="./assets/img/item2.svg" alt="">
             </div>
-        </div>
+        </section>
 
         <div id="reverse_separator">
         </div>
 
         <!-- tech preview -->
-        <div class="container">
+        <section class="container">
             <div class="image_box">
                 <img src="./assets/img/item3.svg" alt="">
             </div>
@@ -101,13 +101,13 @@
                     Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.
                 </p>
             </div>
-        </div>
+        </section>
 
         <div id="separator">
         </div>
 
         <!-- keep in touch section -->
-        <div class="container column alternating_color">
+        <section class="container column alternating_color">
             <div class="text_box column">
                 <p id="upper_text">
                     Tecnologia affidabile per tenersi in contatto
@@ -118,7 +118,7 @@
                 <img src="./assets/img/item4-big.svg" alt="">
             </div>
             <div id="last_section">
-                <p id="ready_text">
+                <p class="text_s1">
                     Pronto a iniziare la tua avventura?
                 </p>
                 <div>
@@ -126,73 +126,81 @@
                         <i class="fa-solid fa-arrow-down"></i>
                         Scarica per Mac
                     </button>
+                </div>
             </div>            
-        </div>
+        </section>
     </main>
 
-    <footer class="site_footer">
-        <div id="footer_column1">
-            <div id="footer_box1">
-                <p id="footer_bigger">
-                    Il tuo posto per parlare
-                </p>
-                <p id="italiano">
-                    Italiano
-                </p>
-            </div>
-            <div id="footer_columns">
-                <div id="footer_column">
-                    <ul id="footer_part">
-                        <li id="blue_main">Prodotto</li>
-                        <li id="secondary">Scarica</li>
-                        <li id="secondary">Perchè Discord</li>
-                        <li id="secondary">Nitro</li>
-                        <li id="secondary">Sicurezza</li>
-                        <li id="secondary">Assistenza</li>
-                    </ul>
+    <footer id="site_footer">
+        <div class="container">
+            <div id="footer_section1">
+                <div id="footer_content1">
+                    <p class= "text_s1 blue">
+                        Il tuo posto per parlare
+                    </p>
+                    <p id="ita_text">
+                        <img src="./assets/img/ita.png" alt="" id="ita">
+                        Italiano
+                    </p>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
                 </div>
-                <div id="footer_column">
-                    <ul id="footer_part">
-                        <li id="blue_main">Compagnia</li>
-                        <li id="secondary">Chi siamo</li>
-                        <li id="secondary">Lavora con noi</li>
-                        <li id="secondary">Marchio</li>
-                        <li id="secondary">Redazione</li>
-                        <li id="secondary">Negozio</li>
-                    </ul>
-                </div>
-                <div id="footer_column">
-                    <ul id="footer_part">
-                        <li id="blue_main">Risorse</li>
-                        <li id="secondary">Scarica</li>
-                        <li id="secondary">Perchè Discord</li>
-                        <li id="secondary">Nitro</li>
-                        <li id="secondary">Sicurezza</li>
-                        <li id="secondary">Assistenza</li>
-                        <li id="secondary">Scarica</li>
-                        <li id="secondary">Perchè Discord</li>
-                        <li id="secondary">Nitro</li>
-                        <li id="secondary">Sicurezza</li>
-                        <li id="secondary">Assistenza</li>
-                    </ul>
-                </div>
-                <div id="footer_column">
-                    <ul id="footer_part">
-                        <li id="blue_main">Norme</li>
-                        <li id="secondary">Scarica</li>
-                        <li id="secondary">Perchè Discord</li>
-                        <li id="secondary">Nitro</li>
-                        <li id="secondary">Sicurezza</li>
-                        <li id="secondary">Assistenza</li>
-                    </ul>
+                <div id="footer_columns">
+                    <div id="footer_column">
+                        <ul id="footer_part">
+                            <li id="blue_main">Prodotto</li>
+                            <li id="secondary">Scarica</li>
+                            <li id="secondary">Perchè Discord</li>
+                            <li id="secondary">Nitro</li>
+                            <li id="secondary">Sicurezza</li>
+                            <li id="secondary">Assistenza</li>
+                        </ul>
+                    </div>
+                    <div id="footer_column">
+                        <ul id="footer_part">
+                            <li id="blue_main">Compagnia</li>
+                            <li id="secondary">Chi siamo</li>
+                            <li id="secondary">Lavora con noi</li>
+                            <li id="secondary">Marchio</li>
+                            <li id="secondary">Redazione</li>
+                            <li id="secondary">Negozio</li>
+                        </ul>
+                    </div>
+                    <div id="footer_column">
+                        <ul id="footer_part">
+                            <li id="blue_main">Risorse</li>
+                            <li id="secondary">Scarica</li>
+                            <li id="secondary">Perchè Discord</li>
+                            <li id="secondary">Nitro</li>
+                            <li id="secondary">Sicurezza</li>
+                            <li id="secondary">Assistenza</li>
+                            <li id="secondary">Scarica</li>
+                            <li id="secondary">Perchè Discord</li>
+                            <li id="secondary">Nitro</li>
+                            <li id="secondary">Sicurezza</li>
+                            <li id="secondary">Assistenza</li>
+                        </ul>
+                    </div>
+                    <div id="footer_column">
+                        <ul id="footer_part">
+                            <li id="blue_main">Norme</li>
+                            <li id="secondary">Scarica</li>
+                            <li id="secondary">Perchè Discord</li>
+                            <li id="secondary">Nitro</li>
+                            <li id="secondary">Sicurezza</li>
+                            <li id="secondary">Assistenza</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
         <hr>
         <div id="footer_section2">
-            <div id="footer_box3">              
-                <div id="logo">
-                    
+            <div id="footer_content2">              
+                <div>
+                    <img src="./assets/img/logo.svg" alt="">
                 </div>
                 <div id="box3_button">
                     <button id="register">
